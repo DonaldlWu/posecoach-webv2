@@ -35,6 +35,10 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
+# local dev tool artifacts
+.claude/
+.superpowers/
+
 # large media files
 public/videos/*.mov
 
