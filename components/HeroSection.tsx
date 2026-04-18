@@ -89,7 +89,7 @@ export default function HeroSection() {
           className="relative rounded-2xl overflow-hidden border border-white/10 shadow-2xl shadow-black/50 max-w-3xl mx-auto"
         >
           <video
-            src="/videos/demo_body_detect.mov"
+            src="/videos/demo_body_detect.mp4"
             autoPlay
             muted
             loop
