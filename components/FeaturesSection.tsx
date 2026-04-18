@@ -64,6 +64,7 @@ export default function FeaturesSection() {
                 description={item.description}
                 imageSrc={screenshots[index]}
                 imageAlt={item.alt}
+                priority={index === 0}
               />
             </motion.div>
           ))}

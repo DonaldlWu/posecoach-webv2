@@ -7,6 +7,7 @@ interface FeatureCardProps {
   description: string;
   imageSrc: string;
   imageAlt: string;
+  priority?: boolean;
 }
 
 const badgeStyles: Record<FeatureCardProps["badgeColor"], string> = {
@@ -23,6 +24,7 @@ export default function FeatureCard({
   description,
   imageSrc,
   imageAlt,
+  priority = false,
 }: FeatureCardProps) {
   return (
     <div className="bg-pc-card border border-pc-border rounded-2xl overflow-hidden flex flex-col hover:border-slate-600 transition-colors group">
@@ -34,6 +36,7 @@ export default function FeatureCard({
           fill
           className="object-cover object-top group-hover:scale-[1.02] transition-transform duration-500"
           sizes="(max-width: 768px) 100vw, 50vw"
+          priority={priority}
         />
       </div>
 
