@@ -27,14 +27,13 @@ export default function Navbar() {
 
   function toggleLanguage() {
     const newLocale = locale === "zh" ? "en" : "zh";
-    const segments = pathname.split("/");
-    if (segments[1] === "en") {
-      segments.splice(1, 1);
+    const segments = pathname.split("/").filter(Boolean); // remove empty strings
+    // Remove existing locale prefix if present
+    if (segments[0] === "en" || segments[0] === "zh") {
+      segments.shift();
     }
-    const newPath =
-      newLocale === "en"
-        ? "/en" + (segments.join("/") || "/")
-        : segments.join("/") || "/";
+    const rest = segments.length > 0 ? "/" + segments.join("/") : "/";
+    const newPath = newLocale === "en" ? "/en" + rest : rest;
     router.push(newPath);
   }
 

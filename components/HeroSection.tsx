@@ -2,10 +2,7 @@
 
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
-
-const APP_STORE_URL =
-  "https://apps.apple.com/tw/app/pose-coach/id1589037753";
-const TESTFLIGHT_URL = "https://testflight.apple.com/join/8obWFf50";
+import { APP_STORE_URL, TESTFLIGHT_URL } from "@/lib/constants";
 
 export default function HeroSection() {
   const t = useTranslations("hero");

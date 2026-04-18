@@ -1,8 +1,5 @@
 import { getTranslations } from "next-intl/server";
-
-const APP_STORE_URL =
-  "https://apps.apple.com/tw/app/pose-coach/id1589037753";
-const TESTFLIGHT_URL = "https://testflight.apple.com/join/8obWFf50";
+import { APP_STORE_URL, TESTFLIGHT_URL } from "@/lib/constants";
 
 export default async function DownloadCTASection() {
   const t = await getTranslations("download");

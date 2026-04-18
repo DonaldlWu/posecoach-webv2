@@ -1,6 +1,5 @@
 import { getTranslations } from "next-intl/server";
-
-const TESTFLIGHT_URL = "https://testflight.apple.com/join/8obWFf50";
+import { TESTFLIGHT_URL } from "@/lib/constants";
 
 export default async function ComingSoonSection() {
   const t = await getTranslations("comingSoon");

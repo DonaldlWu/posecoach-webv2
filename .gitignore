@@ -37,3 +37,6 @@ next-env.d.ts
 
 # large media files
 public/videos/*.mov
+
+# Source/staging assets (not for git)
+/resources/

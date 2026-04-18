@@ -1,7 +1,5 @@
 import { getTranslations } from "next-intl/server";
-
-const GITHUB_URL = "https://github.com/DonaldlWu/PoseCoachDoc/issues";
-const EMAIL = "derendeveloper@gmail.com";
+import { GITHUB_URL, SUPPORT_EMAIL } from "@/lib/constants";
 
 export default async function Footer() {
   const t = await getTranslations("footer");
@@ -16,10 +14,10 @@ export default async function Footer() {
           <span>{t("copyright")}</span>
           <span className="hidden md:inline">·</span>
           <a
-            href={`mailto:${EMAIL}`}
+            href={`mailto:${SUPPORT_EMAIL}`}
             className="hover:text-slate-300 transition-colors"
           >
-            {EMAIL}
+            {SUPPORT_EMAIL}
           </a>
         </div>
         <div className="flex items-center gap-6">
@@ -31,7 +29,9 @@ export default async function Footer() {
           >
             {t("github")}
           </a>
-          <span className="text-slate-700">{t("privacy")}</span>
+          <a href="/privacy" className="text-slate-500 hover:text-slate-300 transition-colors">
+            {t("privacy")}
+          </a>
         </div>
       </div>
     </footer>

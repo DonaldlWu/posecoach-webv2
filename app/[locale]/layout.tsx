@@ -1,9 +1,24 @@
 import type { Metadata } from "next";
+import { Inter } from "next/font/google";
+import { Noto_Sans_TC } from "next/font/google";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+  display: "swap",
+});
+
+const notoSansTC = Noto_Sans_TC({
+  subsets: ["latin"],
+  weight: ["400", "700", "900"],
+  variable: "--font-noto",
+  display: "swap",
+});
 
 const locales = ["zh", "en"];
 
@@ -39,8 +54,8 @@ export async function generateMetadata({
       images: [
         {
           url: "/screenshots/screenshot4_overview.png",
-          width: 1536,
-          height: 660,
+          width: 2796,
+          height: 1290,
           alt: title,
         },
       ],
@@ -75,10 +90,14 @@ export default async function LocaleLayout({
   const messages = await getMessages();
 
   return (
-    <NextIntlClientProvider messages={messages}>
-      <Navbar />
-      <main>{children}</main>
-      <Footer />
-    </NextIntlClientProvider>
+    <html lang={locale} suppressHydrationWarning>
+      <body className={`${inter.variable} ${notoSansTC.variable}`}>
+        <NextIntlClientProvider messages={messages}>
+          <Navbar />
+          <main>{children}</main>
+          <Footer />
+        </NextIntlClientProvider>
+      </body>
+    </html>
   );
 }
