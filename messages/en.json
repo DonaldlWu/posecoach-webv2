@@ -32,13 +32,13 @@
       {
         "badge": "Precision Control",
         "title": "Variable Speed Scrub",
-        "description": "Drag down on the timeline to switch between 1×, ½×, ¼×, and ⅛× playback speeds. Never miss a critical frame again.",
+        "description": "One finger controls the timeline: scrub left and right to seek, drag up and down to change speed. Four steps — 1×, ½×, ¼×, ⅛× — to catch every critical moment.",
         "alt": "Variable speed scrub screenshot"
       },
       {
         "badge": "Analysis",
         "title": "Multi-function Player",
-        "description": "Pose analysis · Pinch zoom (1×–4×) · 6 playback speeds · Screenshot · Side-by-side comparison — all in one player.",
+        "description": "Skeleton overlay · 6-speed slow motion · Pinch zoom up to 4×",
         "alt": "Multi-function player screenshot"
       }
     ]
