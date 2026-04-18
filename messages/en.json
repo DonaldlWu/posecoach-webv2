@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "features": "Features",
+    "download": "Download",
+    "about": "About",
+    "langToggle": "中"
+  },
+  "hero": {
+    "badge": "iOS App · AI Sports Coach",
+    "title": "See Every",
+    "titleHighlight": "Critical Moment in Motion",
+    "description": "Real-time Pose Detection · Variable Speed Scrub · Precise Clip Editing\nTurn your training footage into your most powerful coach",
+    "appStore": "Download on App Store",
+    "testflight": "TestFlight Beta"
+  },
+  "features": {
+    "sectionLabel": "FEATURES",
+    "sectionTitle": "Core Features",
+    "items": [
+      {
+        "badge": "Live Detection",
+        "title": "Real-time Pose Detection",
+        "description": "Accurately identifies 18 body joints and overlays a skeleton on your video in real time. High-confidence bounding box markers included.",
+        "alt": "Real-time pose detection screenshot"
+      },
+      {
+        "badge": "Clip Editing",
+        "title": "Precise Clip Editing",
+        "description": "Set IN / OUT points to quickly extract key moments and export clips. Optionally burn the skeleton overlay directly into the exported video.",
+        "alt": "Clip editing screenshot"
+      },
+      {
+        "badge": "Precision Control",
+        "title": "Variable Speed Scrub",
+        "description": "Drag down on the timeline to switch between 1×, ½×, ¼×, and ⅛× playback speeds. Never miss a critical frame again.",
+        "alt": "Variable speed scrub screenshot"
+      },
+      {
+        "badge": "Analysis",
+        "title": "Multi-function Player",
+        "description": "Pose analysis · Pinch zoom (1×–4×) · 6 playback speeds · Screenshot · Side-by-side comparison — all in one player.",
+        "alt": "Multi-function player screenshot"
+      }
+    ]
+  },
+  "comingSoon": {
+    "label": "COMING SOON",
+    "title": "Baseball Swing Analysis",
+    "description": "AI-powered swing trajectory detection and release angle analysis — coming soon",
+    "cta": "Try Early on TestFlight"
+  },
+  "download": {
+    "title": "Start Analyzing Your Motion Today",
+    "description": "Free Download · iOS 15+ · iPhone & iPad",
+    "appStore": "App Store",
+    "testflight": "TestFlight Beta"
+  },
+  "footer": {
+    "copyright": "© 2026 Pose Coach",
+    "github": "GitHub",
+    "privacy": "Privacy Policy"
+  }
+}

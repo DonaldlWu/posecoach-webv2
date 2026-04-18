@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "features": "功能特色",
+    "download": "下載",
+    "about": "關於",
+    "langToggle": "EN"
+  },
+  "hero": {
+    "badge": "iOS App · 運動姿態分析教練",
+    "title": "看見每個",
+    "titleHighlight": "關鍵動作瞬間",
+    "description": "即時姿態偵測 · 可變速快刷 · 精準片段剪輯\n讓你的訓練影片變成最強大的教練",
+    "appStore": "App Store 下載",
+    "testflight": "TestFlight Beta"
+  },
+  "features": {
+    "sectionLabel": "FEATURES",
+    "sectionTitle": "核心功能",
+    "items": [
+      {
+        "badge": "即時偵測",
+        "title": "即時姿態偵測",
+        "description": "精準識別 18 個人體關節點，即時繪製骨架疊加於影片上。支援高信賴度邊界框標記。",
+        "alt": "即時姿態偵測截圖"
+      },
+      {
+        "badge": "影片剪輯",
+        "title": "精準片段剪輯",
+        "description": "設定 IN / OUT 點，快速截取精彩動作片段並匯出儲存。匯出時可選擇含骨架的分析影片。",
+        "alt": "精準片段剪輯截圖"
+      },
+      {
+        "badge": "精確控制",
+        "title": "可變速快刷控制",
+        "description": "向下拖曳進度條調整刷取速度，支援 1×、½×、¼×、⅛× 四段速度，輕鬆找出每個關鍵瞬間。",
+        "alt": "可變速快刷控制截圖"
+      },
+      {
+        "badge": "播放分析",
+        "title": "多功能播放器",
+        "description": "姿態分析 · 捏合縮放（1×～4×）· 6 段速率 · 影片截圖 · 並排比對模式一體整合。",
+        "alt": "多功能播放器截圖"
+      }
+    ]
+  },
+  "comingSoon": {
+    "label": "COMING SOON",
+    "title": "棒球揮棒分析",
+    "description": "AI 自動識別揮棒軌跡，精準分析出手姿勢，即將推出",
+    "cta": "搶先體驗 TestFlight"
+  },
+  "download": {
+    "title": "立即開始分析你的動作",
+    "description": "免費下載 · iOS 15+ · 支援 iPhone & iPad",
+    "appStore": "App Store",
+    "testflight": "TestFlight Beta"
+  },
+  "footer": {
+    "copyright": "© 2026 Pose Coach",
+    "github": "GitHub",
+    "privacy": "Privacy Policy"
+  }
+}
