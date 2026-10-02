@@ -1,53 +1,76 @@
 {
   "nav": {
-    "features": "功能特色",
-    "download": "下載",
-    "about": "關於",
-    "langToggle": "EN"
+    "home": "首頁 Home",
+    "angle": "參考線夾角 Angle",
+    "how": "運作方式 How it works",
+    "features": "核心功能 Features",
+    "download": "下載 Download",
+    "new": "NEW",
+    "cta": "App Store 下載",
+    "get": "下載",
+    "menu": "選單 Menu"
   },
   "hero": {
-    "badge": "iOS App · 運動姿態分析教練",
-    "title": "看見每個",
-    "titleHighlight": "關鍵動作瞬間",
-    "description": "即時姿態偵測 · 可變速快刷 · 精準片段剪輯\n讓你的訓練影片變成最強大的教練",
+    "badge": "iOS APP · 運動姿態分析教練",
+    "title": "看見每個\n關鍵動作瞬間",
+    "subtitle": "See Every Critical Moment in Motion",
+    "description": "即時姿態偵測 · 可變速快刷 · 精準片段剪輯。讓你的訓練影片變成最強大的教練。",
     "appStore": "App Store 下載",
-    "testflight": "TestFlight Beta"
+    "testflight": "TestFlight"
+  },
+  "angle": {
+    "badge": "NEW 新功能",
+    "kicker": "> 參考線夾角 · Reference-line angle",
+    "title": "這次比上次\n進步了幾",
+    "titleSuffix": "？",
+    "body": "在畫面中拉出一條基準參考線，app 會幫你量出與身體區段的夾角。每次訓練量一次，改變就看得見。",
+    "bodyEn": "Draw a baseline; the app measures its angle to a body segment. Measure every session and watch the change.",
+    "imageAlt": "參考線夾角畫面：紅色參考線與各身體區段的夾角"
+  },
+  "how": {
+    "title": "怎麼量出來的",
+    "subtitle": "How it works",
+    "hint": "點任一步驟可直接跳到該段影片",
+    "steps": [
+      {
+        "title": "拉一條基準參考線",
+        "subtitle": "Draw a baseline anywhere on the frame"
+      },
+      {
+        "title": "選定身體區段，讀出夾角",
+        "subtitle": "Pick a body segment and read the angle"
+      }
+    ]
   },
   "features": {
     "sectionLabel": "FEATURES",
     "sectionTitle": "核心功能",
     "items": [
       {
-        "badge": "即時偵測",
+        "badge": "即時偵測 LIVE",
         "title": "即時姿態偵測",
-        "description": "精準識別 18 個人體關節點，即時繪製骨架疊加於影片上。支援高信賴度邊界框標記。",
-        "alt": "即時姿態偵測截圖"
+        "description": "精準識別 18 個人體關節點，即時繪製骨架疊加於影片上。",
+        "en": "18 body joints, skeleton overlaid in real time."
       },
       {
-        "badge": "影片剪輯",
+        "badge": "影片剪輯 CLIP",
         "title": "精準片段剪輯",
-        "description": "設定 IN / OUT 點，快速截取精彩動作片段並匯出儲存。匯出時可選擇含骨架的分析影片。",
-        "alt": "精準片段剪輯截圖"
+        "description": "設定 IN / OUT 點，快速截取精彩動作片段並匯出儲存。",
+        "en": "IN / OUT points, export with or without skeleton."
       },
       {
-        "badge": "精確控制",
+        "badge": "精確控制 CONTROL",
         "title": "可變速快刷控制",
-        "description": "用一根手指同時控制時間軸：左右快刷定位、上下拖曳切換速度。支援 1×、½×、¼×、⅛× 四段減速，精準捕捉每個關鍵瞬間。",
-        "alt": "可變速快刷控制截圖"
+        "description": "左右快刷定位、上下拖曳切換速度，四段減速到 ⅛×。",
+        "en": "One finger: scrub to seek, drag to change speed."
       },
       {
-        "badge": "播放分析",
-        "title": "多功能播放器",
-        "description": "骨架分析疊加 · 六段速率慢動作 · 捏合縮放 4×",
-        "alt": "多功能播放器截圖"
+        "badge": "播放分析 ANALYSIS",
+        "title": "關節角度顯示",
+        "description": "顯示關節區段角度",
+        "en": "Shows the angle of each joint segment."
       }
     ]
-  },
-  "comingSoon": {
-    "label": "COMING SOON",
-    "title": "棒球揮棒分析",
-    "description": "AI 自動識別揮棒軌跡，精準分析出手姿勢，即將推出",
-    "cta": "搶先體驗 TestFlight"
   },
   "download": {
     "title": "立即開始分析你的動作",

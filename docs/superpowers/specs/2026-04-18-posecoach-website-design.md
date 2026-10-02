@@ -1,5 +1,7 @@
 # PoseCoach 官方網站設計規格
 
+> ⚠️ **已被取代（2026-10-02）：** 本文件為初版 Sports Gradient 深色主題設計。現行設計以 Pixel Art 改版為準，請見 [2026-10-02 PoseCoach 官方網站 Pixel Art 改版規格](./2026-10-02-posecoach-pixel-art-redesign.md)。以下內容保留作為歷史紀錄。
+
 **日期：** 2026-04-18
 **專案路徑：** `/Users/wuderen/WorkSpace/posecoach-webv2`
 **部署目標：** Vercel

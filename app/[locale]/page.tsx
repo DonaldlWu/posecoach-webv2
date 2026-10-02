@@ -1,7 +1,8 @@
 import { setRequestLocale } from "next-intl/server";
 import HeroSection from "@/components/HeroSection";
+import AngleSection from "@/components/AngleSection";
+import HowItWorksSection from "@/components/HowItWorksSection";
 import FeaturesSection from "@/components/FeaturesSection";
-import ComingSoonSection from "@/components/ComingSoonSection";
 import DownloadCTASection from "@/components/DownloadCTASection";
 
 export default async function HomePage({
@@ -15,8 +16,9 @@ export default async function HomePage({
   return (
     <>
       <HeroSection />
+      <AngleSection />
+      <HowItWorksSection />
       <FeaturesSection />
-      <ComingSoonSection />
       <DownloadCTASection />
     </>
   );

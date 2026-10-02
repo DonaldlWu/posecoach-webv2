@@ -1,5 +1,7 @@
 # PoseCoach 官方網站 Implementation Plan
 
+> ⚠️ **已被取代（2026-10-02）：** 本計畫為初版 Sports Gradient 深色主題的 greenfield 建置。現行實作以 Pixel Art 改版為準，請見 [2026-10-02 PoseCoach 官方網站 Pixel Art 改版 Implementation Plan](./2026-10-02-posecoach-pixel-art-redesign.md)。以下內容保留作為歷史紀錄。
+
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
 **Goal:** 建立 PoseCoach iOS App 的一頁式行銷官網，使用 Next.js 14 + Tailwind CSS + Framer Motion，中英雙語，部署至 Vercel。

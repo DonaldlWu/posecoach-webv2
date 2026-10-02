@@ -2,21 +2,53 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --bg: #080e1a;
-}
-
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  background-color: #080e1a;
-  color: #f8fafc;
-  font-family: var(--font-inter), var(--font-noto), sans-serif;
+  background-color: #d9cfb6;
+  color: #2b2340;
+  font-family: var(--font-dot), "Pixelify Sans", monospace;
+}
+
+a {
+  color: #2b2340;
+}
+a:hover {
+  color: #ff5a3c;
+}
+
+::selection {
+  background: #ffc93c;
+  color: #2b2340;
+}
+
+:focus-visible {
+  outline: 3px solid #ff5a3c;
+  outline-offset: 2px;
+}
+
+/* 像素圖示：關掉平滑縮放 */
+.pixelated {
+  image-rendering: pixelated;
 }
 
 /* 讓影片不顯示控制列預設 UI */
 video::-webkit-media-controls {
   display: none !important;
+}
+
+/* 尊重使用者「減少動態效果」設定：關掉淡入淡出與動畫 */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.001ms !important;
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+  }
 }

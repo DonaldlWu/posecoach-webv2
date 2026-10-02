@@ -1,23 +1,34 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import { Noto_Sans_TC } from "next/font/google";
+import { DotGothic16, Pixelify_Sans, VT323 } from "next/font/google";
 import "../globals.css";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
-import Navbar from "@/components/Navbar";
+import Sidebar from "@/components/Sidebar";
+import MobileHeader from "@/components/MobileHeader";
 import Footer from "@/components/Footer";
 
-const inter = Inter({
+// 中文內文與標題（預設 body 字體）
+const dotGothic = DotGothic16({
   subsets: ["latin"],
-  variable: "--font-inter",
+  weight: "400",
+  variable: "--font-dot",
   display: "swap",
 });
 
-const notoSansTC = Noto_Sans_TC({
+// 英文副標、Logo 字、標籤、footer
+const pixelify = Pixelify_Sans({
   subsets: ["latin"],
-  weight: ["400", "700", "900"],
-  variable: "--font-noto",
+  weight: ["400", "700"],
+  variable: "--font-pixelify",
+  display: "swap",
+});
+
+// 數字：步驟編號、° 符號
+const vt323 = VT323({
+  subsets: ["latin"],
+  weight: "400",
+  variable: "--font-vt",
   display: "swap",
 });
 
@@ -92,11 +103,18 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} suppressHydrationWarning>
-      <body className={`${inter.variable} ${notoSansTC.variable}`}>
+      <body
+        className={`${dotGothic.variable} ${pixelify.variable} ${vt323.variable}`}
+      >
         <NextIntlClientProvider messages={messages}>
-          <Navbar />
-          <main>{children}</main>
-          <Footer />
+          <div className="mx-auto flex max-w-[1200px] flex-wrap items-start border-x-4 border-px-ink bg-px-cream">
+            <Sidebar />
+            <MobileHeader />
+            <main className="flex-[1_1_320px] min-w-0">
+              {children}
+              <Footer />
+            </main>
+          </div>
         </NextIntlClientProvider>
       </body>
     </html>
