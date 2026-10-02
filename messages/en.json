@@ -1,53 +1,76 @@
 {
   "nav": {
+    "home": "Home",
+    "angle": "Angle",
+    "how": "How it works",
     "features": "Features",
     "download": "Download",
-    "about": "About",
-    "langToggle": "中"
+    "new": "NEW",
+    "cta": "Download on App Store",
+    "get": "Get",
+    "menu": "Menu"
   },
   "hero": {
-    "badge": "iOS App · AI Sports Coach",
-    "title": "See Every",
-    "titleHighlight": "Critical Moment in Motion",
-    "description": "Real-time Pose Detection · Variable Speed Scrub · Precise Clip Editing\nTurn your training footage into your most powerful coach",
+    "badge": "iOS APP · AI Sports Motion Coach",
+    "title": "See Every Critical\nMoment in Motion",
+    "subtitle": "",
+    "description": "Real-time pose detection · variable-speed scrub · precise clip editing. Turn your training footage into your most powerful coach.",
     "appStore": "Download on App Store",
-    "testflight": "TestFlight Beta"
+    "testflight": "TestFlight"
+  },
+  "angle": {
+    "badge": "NEW",
+    "kicker": "> Reference-line angle",
+    "title": "Improved by how\nmany",
+    "titleSuffix": "?",
+    "body": "Draw a baseline on the frame and the app measures its angle to a body segment. Measure every session and watch the change.",
+    "bodyEn": "",
+    "imageAlt": "Reference-line angle screen: a red baseline and the angles to each body segment"
+  },
+  "how": {
+    "title": "How it works",
+    "subtitle": "",
+    "hint": "Tap any step to jump straight to that clip",
+    "steps": [
+      {
+        "title": "Draw a baseline anywhere on the frame",
+        "subtitle": ""
+      },
+      {
+        "title": "Pick a body segment and read the angle",
+        "subtitle": ""
+      }
+    ]
   },
   "features": {
     "sectionLabel": "FEATURES",
     "sectionTitle": "Core Features",
     "items": [
       {
-        "badge": "Live Detection",
+        "badge": "LIVE DETECTION",
         "title": "Real-time Pose Detection",
-        "description": "Accurately identifies 18 body joints and overlays a skeleton on your video in real time. High-confidence bounding box markers included.",
-        "alt": "Real-time pose detection screenshot"
+        "description": "Accurately identifies 18 body joints and overlays a skeleton on your video in real time.",
+        "en": ""
       },
       {
-        "badge": "Clip Editing",
+        "badge": "CLIP EDITING",
         "title": "Precise Clip Editing",
-        "description": "Set IN / OUT points to quickly extract key moments and export clips. Optionally burn the skeleton overlay directly into the exported video.",
-        "alt": "Clip editing screenshot"
+        "description": "Set IN / OUT points to quickly extract key moments and export, with or without the skeleton.",
+        "en": ""
       },
       {
-        "badge": "Precision Control",
+        "badge": "SPEED CONTROL",
         "title": "Variable Speed Scrub",
-        "description": "One finger controls the timeline: scrub left and right to seek, drag up and down to change speed. Four steps — 1×, ½×, ¼×, ⅛× — to catch every critical moment.",
-        "alt": "Variable speed scrub screenshot"
+        "description": "Scrub left/right to seek, drag up/down to change speed — four steps down to ⅛×.",
+        "en": ""
       },
       {
-        "badge": "Analysis",
-        "title": "Multi-function Player",
-        "description": "Skeleton overlay · 6-speed slow motion · Pinch zoom up to 4×",
-        "alt": "Multi-function player screenshot"
+        "badge": "ANALYSIS",
+        "title": "Joint Angle Display",
+        "description": "Shows the angle of each joint segment.",
+        "en": ""
       }
     ]
-  },
-  "comingSoon": {
-    "label": "COMING SOON",
-    "title": "Baseball Swing Analysis",
-    "description": "AI-powered swing trajectory detection and release angle analysis — coming soon",
-    "cta": "Try Early on TestFlight"
   },
   "download": {
     "title": "Start Analyzing Your Motion Today",
